@@ -10,6 +10,7 @@
     "test": "jest --transformIgnorePatterns \"node_modules/(?!react-native-fs)/\""
   },
   "dependencies": {
+    "@testing-library/react-native": "^12.4.5",
     "@types/jest": "^29.5.12",
     "react": "18.2.0",
     "react-native": "0.73.7",
