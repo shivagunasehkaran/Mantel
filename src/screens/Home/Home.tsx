@@ -71,7 +71,10 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={() => writeFile()}>
+      <TouchableOpacity
+        testID={'button:write'}
+        style={styles.button}
+        onPress={() => writeFile()}>
         <Text style={styles.text}>{'WRITE'}</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={() => readFile()}>
