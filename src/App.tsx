@@ -6,23 +6,15 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import Home from './screens/Home/Home';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View style={styles.container}>
-        <Text>{'Mantel'}</Text>
-      </View>
+      <Home />
     </SafeAreaView>
   );
 };
 
 export default App;
-
-const styles = StyleSheet.create({
-  container: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-});
