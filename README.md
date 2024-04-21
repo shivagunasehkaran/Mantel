@@ -1,79 +1,53 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mantel website traffic details
 
-# Getting Started
+This Mantel website traffic details app helps you to find the trafic details for the given inputs logfile. 
+It saving the logfile in the devices and reading the logfile to get all relevant details
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Please go ahead and play around  :)
 
-## Step 1: Start the Metro Server
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Covered :
 
-To start Metro, run the following command from the _root_ of your React Native project:
+  - When clicking on the write button it helps you to write the logfile in the local devices
+  - Then clicking on read button the values are reading by "react-native-fs" package
+  - After getting the values from logfile, calculations happening in the code for finding "The number of unique IP addresses", "The top 3 most visited URLs" and "The top 3 most active IP addresses"
+  - Displaying the details in the home screens itself
+  - Just used basic react native components for development
+  - Project working on both Android and iOS
+  - Project running on latest RN 0.73.7
 
-```bash
-# using npm
-npm start
+## How to setup code :
 
-# OR using Yarn
-yarn start
-```
+- Step 1 : 	download code from repo
 
-## Step 2: Start your Application
+- Step 2 : 	remove **yarn.lock** file from download code
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- Step 3 : 	do **npm install** or **yarn install** ( if you have configured **yarn** in your project )
 
-### For Android
+  ### If you want to run in iOS :-
 
-```bash
-# using npm
-npm run android
+      -  pod install ( all of your packages to be installed in your Pod file )
 
-# OR using Yarn
-yarn android
-```
+      -  yarn run ios or react-native run-ios ( app will run in your simulator or connected iOS device )
+      
+      
+  ### If you want to run in Android :-
 
-### For iOS
+      -  open your android studio and make sure your gradle getting success ( all of your packages to be synced in your gradle )
 
-```bash
-# using npm
-npm run ios
+      -  yarn run ios or react-native run-android ( app will run in your emulator or connected Android device )
 
-# OR using Yarn
-yarn ios
-```
+## Packages used : (libraries)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+  Project is created with:
+    
+  - react (18.2.0)
+  - react-native (0.73.7)
+  - react-native-fs (2.20.0)
+  - @testing-library/react-native (12.4.5)
+  - jest (29.6.3) - devDependencies
+  - used Prettier for code formatting
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## outputs below attached
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+https://github.com/shivagunasehkaran/Mantel/assets/11419839/aaf21619-7b72-40b0-9a03-1ded77864950
